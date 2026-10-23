@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Números</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px 16px;
+      background: #f4f6f8;
+      color: #222;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .tarjetas {
+      max-width: 800px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 16px;
+    }
+    .tarjeta {
+      background: white;
+      border-radius: 10px;
+      padding: 20px 10px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+    .tarjeta .numero {
+      font-size: 40px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .tarjeta .nombre {
+      margin-top: 6px;
+      color: #555;
+    }
+    .boton {
+      display: inline-block;
+      margin-top: 10px;
+      background: #2c3e50;
+      color: white;
+      text-decoration: none;
+      padding: 10px 24px;
+      border-radius: 6px;
+    }
+    .boton:hover {
+      background: #3d5a73;
+    }
+  </style>
+</head>
+<body>
+  <h1>Números</h1>
+
+  <div class="tarjetas">
+    <div class="tarjeta"><div class="numero">0</div><div class="nombre">Cero</div></div>
+    <div class="tarjeta"><div class="numero">1</div><div class="nombre">Uno</div></div>
+    <div class="tarjeta"><div class="numero">2</div><div class="nombre">Dos</div></div>
+    <div class="tarjeta"><div class="numero">3</div><div class="nombre">Tres</div></div>
+    <div class="tarjeta"><div class="numero">4</div><div class="nombre">Cuatro</div></div>
+    <div class="tarjeta"><div class="numero">5</div><div class="nombre">Cinco</div></div>
+    <div class="tarjeta"><div class="numero">6</div><div class="nombre">Seis</div></div>
+    <div class="tarjeta"><div class="numero">7</div><div class="nombre">Siete</div></div>
+    <div class="tarjeta"><div class="numero">8</div><div class="nombre">Ocho</div></div>
+    <div class="tarjeta"><div class="numero">9</div><div class="nombre">Nueve</div></div>
+  </div>
+
+  <a class="boton" href="index.html">Volver</a>
+</body>
+</html>

@@ -8,57 +8,42 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background: #f4f6f8;
       color: #222;
     }
-    header {
+    .ventana {
+      background: white;
+      border-radius: 12px;
+      padding: 30px 40px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+    .ventana h1 {
+      margin: 0 0 20px;
+      color: #2c3e50;
+    }
+    .boton {
+      display: inline-block;
       background: #2c3e50;
       color: white;
-      text-align: center;
-      padding: 30px 16px;
+      text-decoration: none;
+      padding: 10px 24px;
+      border-radius: 6px;
+      font-size: 16px;
     }
-    main {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 0 16px;
-    }
-    .tema {
-      background: white;
-      border-radius: 8px;
-      padding: 16px 20px;
-      margin-bottom: 16px;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #777;
+    .boton:hover {
+      background: #3d5a73;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Matemáticas</h1>
-    <p>Bienvenido a mi página de matemáticas</p>
-  </header>
-
-  <main>
-    <div class="tema">
-      <h2>Aritmética</h2>
-      <p>Suma, resta, multiplicación y división.</p>
-    </div>
-    <div class="tema">
-      <h2>Álgebra</h2>
-      <p>Ecuaciones, variables y expresiones.</p>
-    </div>
-    <div class="tema">
-      <h2>Geometría</h2>
-      <p>Figuras, áreas y perímetros.</p>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 Matemáticas</p>
-  </footer>
+  <div class="ventana">
+    <h1>Números</h1>
+    <a class="boton" href="numeros.html">Ver</a>
+  </div>
 </body>
 </html>
